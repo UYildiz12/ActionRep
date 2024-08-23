@@ -1,0 +1,10 @@
+
+% Scripts to run after first level
+
+extract_voxels_for_a_given_ROI_oneSession('Clustering_LOTC_volume_spm12_2_2_2');
+extract_voxels_for_a_given_ROI_oneSession('Clustering_PPC_volume_spm12_2_2_2');
+extract_voxels_for_a_given_ROI_oneSession('Clustering_PMC_volume_spm12_2_2_2');
+
+extract_action_betas_oneSession('Clustering_LOTC_volume_spm12_2_2_2');
+extract_action_betas_oneSession('Clustering_PPC_volume_spm12_2_2_2');
+extract_action_betas_oneSession('Clustering_PMC_volume_spm12_2_2_2');

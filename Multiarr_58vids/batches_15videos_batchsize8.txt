@@ -1,0 +1,10 @@
+ALGORITHM RecursiveInsertionSort(A[0..n − 1], i)
+//Sorts a given array by recursive insertion sort
+//Input: An array A[0..n − 1] of n orderable elements and the current index i
+//Output: Array A[0..n − 1] sorted in nondecreasing order
+if i < n
+    j ← i
+    while j > 0 and A[j] < A[j − 1] do
+        swap A[j] and A[j − 1]
+        j ← j − 1
+    RecursiveInsertionSort(A, i + 1)
